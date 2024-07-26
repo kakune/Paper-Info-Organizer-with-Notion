@@ -1,0 +1,5 @@
+__pycache__
+Key_and_ID.yaml
+log/*
+.venv/*
+!requirements.txt

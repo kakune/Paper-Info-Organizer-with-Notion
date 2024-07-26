@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Extension Options</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-size: 18px;
+        }
+
+        input {
+            width: 80%;
+            font-size: 16px;
+            padding: 10px;
+        }
+
+        button {
+            font-size: 20px;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Extension Options</h1>
+    <div class="input-group">
+        <label for="Notion_API_Key">Notion API Key:</label>
+        <input type="text" id="Notion_API_Key">
+    </div>
+    <div class="input-group">
+        <label for="Database_ID">Database ID:</label>
+        <input type="text" id="Database_ID">
+    </div>
+    <div class="input-group">
+        <label for="Keywords_ID">Keywords ID (optional):</label>
+        <input type="text" id="Keywords_ID">
+    </div>
+    <button id="save">Save</button>
+    <script src="options.js"></script>
+</body>
+
+</html>
